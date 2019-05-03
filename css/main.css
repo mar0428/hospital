@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {}
+
+.hide {
+  display: none;
+}
+
+/*common*/
+.inner_container {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.ir {
+  display: block;
+  text-indent: -9999px;
+}
+
+.ir_2 {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*layout*/
+#wrap {
+  position: relative;
+  min-width: 1200px;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  width: 100%;
+}
+
+#wrap2 {
+  width: 1920px;
+  margin: 0 auto;
+  padding-top: 87px;
+}
+
+/*header*/
+#header {
+  overflow: hidden;
+  height: 87px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+#header.open {
+  height: 329px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#header.open .full_container {
+  height: 89px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+#header .logo {
+  float: left;
+}
+
+#header .logo .ir {
+  width: 371px;
+  height: 87px;
+  background: url(../images/%EB%A1%9C%EA%B3%A0.png) center center no-repeat;
+}
+
+#header .header {}
+
+/*gnb*/
+.gnb_wrap {
+  position: relative;
+  margin: auto;
+  width: 950px;
+  /* 이거 넓이.. 이만큼 950 안 주면 마지막 li가 밑으로 내려감..*/
+}
+
+.gnb_wrap .gnb {
+  width: 800px;
+  position: absolute;
+  left: 300px;
+}
+
+.gnb .main_menu {
+  float: left;
+  position: relative;
+  width: 171px;
+  height: 87px;
+  text-align: center;
+}
+
+.gnb .main_menu:hover {
+  border-bottom: 3px solid #2f82d2;
+}
+
+.gnb .main_menu:hover .menu_link {
+  color: #2f82d2;
+}
+
+.gnb .main_menu .menu_link {
+  display: block;
+  padding: 0 1em;
+  font-size: 20px;
+  line-height: 87px;
+}
+
+.gnb .sub_menu {
+  position: absolute;
+  top: 87px;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.gnb .sub_menu li {
+  width: 100%;
+  text-align: center;
+}
+
+.gnb .sub_menu a {
+  display: block;
+  padding: 0.3em 1em;
+}
+
+.gnb .sub_menu a:hover {
+  color: #2f82d2;
+}
+
+/* slider */
+.visual {
+  position: relative;
+}
+
+#mainSlide .slide {
+  position: relative;
+  height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#mainSlide .slide1 {
+  background-image: url(../images/이승철원장소개.png);
+}
+
+#mainSlide .slide2 {
+  background-image: url(../images/종합건강검진배너.png);
+}
+
+#mainSlide_Pager {
+  position: absolute;
+  left: 50%;
+  top: 650px;
+  margin-left: -50px;
+  z-index: 10;
+}
+
+#mainSlide_Pager a {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 3px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: transparent;
+  text-indent: -9999px;
+}
+
+#mainSlide_Pager a.active {
+  background-color: #fff;
+}
+
+/* #slideImg > ul > li img{
+  width: 100%;
+  height: 100%;
+}
+.bx-controls-direction{
+  display: none;
+} */
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {}
+
+.bx-controls {
+  position: absolute;
+  margin-left: 28px;
+  z-index: 10;
+  left: 50%;
+  top: 650px;
+}
+
+.bx-wrapper {
+  margin: auto;
+  z-index: 9;
+}
+
+.bx-wrapper .bx-viewport {
+  z-index: 10;
+}
+
+.bx-controls-direction {
+  display: none;
+}
+
+.slide {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* content 진료종류 */
+#container {
+  margin-top: -60px;
+  height: 1084px;
+  overflow: hidden;
+  background: url("../images/회색배경.png") repeat-y;
+}
+
+#content1 {
+  overflow: hidden;
+}
+
+#list_wrap {
+  width: 1200px;
+  padding: 122px 0 0 363px;
+}
+
+#list_wrap > li {
+  float: left;
+}
+
+.jong {
+  width: 600px;
+  height: 280px;
+  background: url("../images/jong.png") center center no-repeat;
+  position: relative;
+}
+.jong > h3{
+
+}
+
+.cho {
+  width: 300px;
+  height: 280px;
+  background: url("../images/cho.png") center center no-repeat;
+  position: relative;
+}
+
+.ct {
+  width: 300px;
+  height: 280px;
+  background: url("../images/ct.png") center center no-repeat;
+  position: relative;
+}
+
+.dang {
+  width: 300px;
+  height: 280px;
+  background: url("../images/dang.png") center center no-repeat;
+  position: relative;
+}
+
+.go {
+  width: 300px;
+  height: 280px;
+  background: url("../images/go.png") center center no-repeat;
+  position: relative;
+}
+
+.nae {
+  width: 600px;
+  height: 280px;
+  background: url("../images/nae.png") center center no-repeat;
+  position: relative;
+}
+.wrap3 > h3{
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+.wrap3 > p{
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+  top: 84px;
+}
+.wrap3 .s1{
+  position: absolute;
+  top: 106px;
+}
+.wrap3 > a{
+  font-size: 18px;
+  border: 1px solid #000;
+  padding: 12px 16px;
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+  width: 75px;
+  height: 17px;
+  line-height: 13px;
+  text-align: center;
+}
+.wrap4{
+  padding-left: 20px;
+}
+.wrap4 > h3{
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  top: 50px;
+}
+.wrap4 > p{
+  font-size: 18px;
+  position: absolute;
+  top: 84px;
+}
+.wrap4 > a{
+  display: block;
+  font-size: 18px;
+  border: 1px solid #000;
+  padding: 12px 16px;
+  position: absolute;
+  bottom: 35px;
+  width: 75px;
+  height: 17px;
+  line-height: 13px;
+  text-align: center;
+}
+/* content2 공지,칼럼 */
+#content2{
+  padding: 66px 0 0 363px;
+}
+#content2 > div{
+  float: left;
+  width: 572px;
+  height: 267px;
+  background-color: #fff;
+  position: relative;
+}
+#content2 > div > div > ul{
+  width: 531px;
+  height: 211px;
+  padding: 25px 0 0 22px;
+}
+
+#column{
+  margin-left: 54px;
+}
+.title{
+  padding: 25px 0 0 22px;
+}
+.title h3{
+  float: left;
+}
+.title a img{
+  position: absolute;
+  top: 26px;
+  right: 22px;
+}
+#content2 > div h3{
+  font-size: 21px;
+  font-weight: normal;
+}
+#content2 > div > div{
+  clear: both;
+}
+#content2 > div > div span{
+  font-size: 18px;
+}
+.list{
+
+}
+.list > li{
+  padding-right: 137px;
+  padding-bottom: 18px;
+  position: relative;
+  /* word-break: keep-all; */
+}
+.list > li span:first-child{
+  display: inline-block;
+  position: static;
+  width: 100%;
+}
+.list > li span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #999;
+}
+.list > li span a{
+  display: inline-block;
+  overflow: hidden;
+  max-width: 95%;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+#map_txt_t{
+  padding: 73px 0 0 581px;
+}
