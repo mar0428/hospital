@@ -425,6 +425,10 @@ body {
   word-break: break-all;
   white-space: nowrap;
 }
+/* 지도영역 */
 #map_txt_t{
   padding: 73px 0 0 581px;
+}
+#map{
+  padding: 78px 0 0 461px;
 }
