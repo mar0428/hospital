@@ -431,4 +431,8 @@ body {
 }
 #map{
   margin: 78px 0 0 461px;
+  z-index: 10;
+}
+#img{
+  z-index: 5;
 }
