@@ -78,10 +78,10 @@
             <li class="jong">
               <!-- <img src="images/종합건강검진박스배경.png" alt="종합건강검진"> -->
               <div class="wrap4">
-                  <h3>종합건강검진</h3>
-                  <p>성인병 예방과 초기암 진단</p>
-                  <a href="#">바로가기</a>
-                </div>
+                <h3>종합건강검진</h3>
+                <p>성인병 예방과 초기암 진단</p>
+                <a href="#">바로가기</a>
+              </div>
             </li>
             <li class="cho">
               <!-- <img src="images/초음파배경.png" alt="초음파"> -->
@@ -182,7 +182,7 @@
           </div>
         </section>
       </section>
-      <div class="map_wrap" >
+      <div class="map_wrap">
         <div id="map_txt_t">
           <img src="images/오시는길텍스트.png" alt="주소와전화번호">
         </div>
@@ -190,39 +190,38 @@
 
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e68fe6927054caa7cd696c815fd395a3"></script>
         <script>
-        var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-        mapOption = {
-        center: new daum.maps.LatLng(35.8989,128.6090466), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
-        };
+          var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+            mapOption = {
+              center: new daum.maps.LatLng(35.8989, 128.6090466), // 지도의 중심좌표
+              level: 3 // 지도의 확대 레벨
+            };
 
-        var map = new daum.maps.Map(mapContainer, mapOption);
+          var map = new daum.maps.Map(mapContainer, mapOption);
 
-        // 마커가 표시될 위치입니다
-        var markerPosition  = new daum.maps.LatLng(35.8989,128.6090466);
+          // 마커가 표시될 위치입니다
+          var markerPosition = new daum.maps.LatLng(35.8989, 128.6090466);
 
-        // 마커를 생성합니다
-        var marker = new daum.maps.Marker({
-        position: markerPosition
-        });
+          // 마커를 생성합니다
+          var marker = new daum.maps.Marker({
+            position: markerPosition
+          });
 
-        // 마커가 지도 위에 표시되도록 설정합니다
-        marker.setMap(map);
+          // 마커가 지도 위에 표시되도록 설정합니다
+          marker.setMap(map);
 
-        var iwContent = '<div style="padding:5px;">이승철내과의원 <br><a href="http://map.daum.net/link/map/이승철 내과의원,35.8989,128.6090466" style="color:blue" target="_blank">큰지도보기</a> <a href="http://map.daum.net/link/to/이승철 내과의원,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-        iwPosition = new daum.maps.LatLng(35.8989,128.6090466); //인포윈도우 표시 위치입니다
+          var iwContent =
+            '<div style="padding:5px;">이승철내과의원 <br><a href="http://map.daum.net/link/map/이승철 내과의원,35.8989,128.6090466" style="color:blue" target="_blank">큰지도보기</a> <a href="http://map.daum.net/link/to/이승철 내과의원,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+            iwPosition = new daum.maps.LatLng(35.8989, 128.6090466); //인포윈도우 표시 위치입니다
 
-        // 인포윈도우를 생성합니다
-        var infowindow = new daum.maps.InfoWindow({
-        position : iwPosition,
-        content : iwContent
-        });
+          // 인포윈도우를 생성합니다
+          var infowindow = new daum.maps.InfoWindow({
+            position: iwPosition,
+            content: iwContent
+          });
 
-        // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
-        infowindow.open(map, marker);
+          // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+          infowindow.open(map, marker);
         </script>
-
-
 
 
 
