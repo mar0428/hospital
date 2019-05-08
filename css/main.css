@@ -253,7 +253,7 @@ body {
   padding: 122px 0 0 363px;
 }
 
-#list_wrap > li {
+#list_wrap>li {
   float: left;
 }
 
@@ -263,9 +263,8 @@ body {
   background: url("../images/jong.png") center center no-repeat;
   position: relative;
 }
-.jong > h3{
 
-}
+.jong>h3 {}
 
 .cho {
   width: 300px;
@@ -301,24 +300,28 @@ body {
   background: url("../images/nae.png") center center no-repeat;
   position: relative;
 }
-.wrap3 > h3{
+
+.wrap3>h3 {
   font-size: 25px;
   font-weight: normal;
   position: absolute;
   right: 20px;
   top: 50px;
 }
-.wrap3 > p{
+
+.wrap3>p {
   font-size: 18px;
   position: absolute;
   right: 20px;
   top: 84px;
 }
-.wrap3 .s1{
+
+.wrap3 .s1 {
   position: absolute;
   top: 106px;
 }
-.wrap3 > a{
+
+.wrap3>a {
   font-size: 18px;
   border: 1px solid #000;
   padding: 12px 16px;
@@ -330,21 +333,25 @@ body {
   line-height: 13px;
   text-align: center;
 }
-.wrap4{
+
+.wrap4 {
   padding-left: 20px;
 }
-.wrap4 > h3{
+
+.wrap4>h3 {
   font-size: 25px;
   font-weight: normal;
   position: absolute;
   top: 50px;
 }
-.wrap4 > p{
+
+.wrap4>p {
   font-size: 18px;
   position: absolute;
   top: 84px;
 }
-.wrap4 > a{
+
+.wrap4>a {
   display: block;
   font-size: 18px;
   border: 1px solid #000;
@@ -356,68 +363,80 @@ body {
   line-height: 13px;
   text-align: center;
 }
+
 /* content2 공지,칼럼 */
-#content2{
+#content2 {
   padding: 66px 0 0 363px;
 }
-#content2 > div{
+
+#content2>div {
   float: left;
   width: 572px;
   height: 267px;
   background-color: #fff;
   position: relative;
 }
-#content2 > div > div > ul{
+
+#content2>div>div>ul {
   width: 531px;
   height: 211px;
   padding: 25px 0 0 22px;
 }
 
-#column{
+#column {
   margin-left: 54px;
 }
-.title{
+
+.title {
   padding: 25px 0 0 22px;
 }
-.title h3{
+
+.title h3 {
   float: left;
 }
-.title a img{
+
+.title a img {
   position: absolute;
   top: 26px;
   right: 22px;
 }
-#content2 > div h3{
+
+#content2>div h3 {
   font-size: 21px;
   font-weight: normal;
 }
-#content2 > div > div{
+
+#content2>div>div {
   clear: both;
 }
-#content2 > div > div span{
+
+#content2>div>div span {
   font-size: 18px;
 }
-.list{
 
-}
-.list > li{
+.list {}
+
+.list>li {
   padding-right: 137px;
   padding-bottom: 18px;
   position: relative;
   /* word-break: keep-all; */
 }
-.list > li span:first-child{
+
+.list>li span:first-child {
   display: inline-block;
   position: static;
   width: 100%;
 }
-.list > li span{
+
+.list>li span {
   position: absolute;
   top: 0;
   right: 0;
   color: #999;
 }
-.list > li span a{
+
+.list>li span a {
   display: inline-block;
   overflow: hidden;
   max-width: 95%;
@@ -425,14 +444,21 @@ body {
   word-break: break-all;
   white-space: nowrap;
 }
+
 /* 지도영역 */
-#map_txt_t{
+#map_txt_t {
   padding: 73px 0 0 581px;
 }
-#map{
+
+#map {
   margin: 78px 0 0 461px;
   z-index: 10;
 }
-#img{
+#map_txt_b img{
+  z-index: 8;
+}
+#img img{
   z-index: 5;
+  position: relative;
+  top: -520px;
 }
