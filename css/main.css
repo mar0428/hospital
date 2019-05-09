@@ -454,11 +454,41 @@ body {
   margin: 78px 0 0 461px;
   z-index: 10;
 }
-#map_txt_b img{
-  z-index: 8;
+#map_txt_b{
+
 }
-#img img{
-  z-index: 5;
+#img{
   position: relative;
-  top: -520px;
+  top: -300px;
+  width: 1920px;
+  height: 758px;
+  background: url("../images/오시는길배경.png") center center no-repeat;
+}
+
+/* 교통편과 진료시간 */
+#t_wrap{
+  width: 981px;
+  height: 165px;
+}
+#img h2{
+  float: left;
+  font-size: 30px;
+  padding: 0  23px;
+  color: #ffffff;
+}
+#img ul{
+  float: left;
+  padding-top: 4px;
+}
+#img ul li{
+  color: #ffffff;
+}
+.t_f{
+  font-size: 18px;
+}
+#trans li{
+  padding: 0 27px 49px 27px;
+}
+#trans2 li{
+  padding-bottom: 25px;
 }
