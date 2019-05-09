@@ -502,12 +502,12 @@ body {
   height: 125px;
 }
 #transport{
-  margin-top: 355px;
-  margin-left: 460px;
+  margin-top: 330px;
+  margin-left: 472px;
 }
 #timetable{
   border-left: 1px solid #fff;
-  margin-top: 355px;
+  margin-top: 330px;
 }
 /* #timetable h2::before{
   content: "";
