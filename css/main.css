@@ -512,13 +512,14 @@ body {
 #footer div p{
   font-size: 18px;
   color: #9fa0a3;
+  padding-bottom: 9px;
 }
 #footer_txt1{
-  padding: 83px 36px 0 83px;
+  padding: 74px 36px 0 83px;
 }
 #footer_txt2{
-  padding: 131px 34px 0 0;
+  padding: 140px 34px 0 0;
 }
 #footer_txt3{
-  padding-top: 131px;
+  padding-top: 140px;
 }
