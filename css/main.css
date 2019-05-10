@@ -451,15 +451,16 @@ body {
 }
 
 #map {
-  margin: 78px 0 0 461px;
+  margin: 78px 0 -300px 461px;
   z-index: 10;
 }
 #map_txt_b{
 
 }
 #img{
-  position: relative;
-  top: -300px;
+  /* position: relative;
+  top: -300px; */
+  /* margin-bottom: -300px; */
   width: 1920px;
   height: 758px;
   background: url("../images/오시는길배경.png") center center no-repeat;
