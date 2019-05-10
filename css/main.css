@@ -501,5 +501,24 @@ body {
 #footer {
   height: 236px;
   background-color: #e6e6e6;
-
+}
+#footer img{
+  float: left;
+  padding: 96px 0 0 404px;
+}
+#footer div{
+  float: left;
+}
+#footer div p{
+  font-size: 18px;
+  color: #9fa0a3;
+}
+#footer_txt1{
+  padding: 83px 36px 0 83px;
+}
+#footer_txt2{
+  padding: 131px 34px 0 0;
+}
+#footer_txt3{
+  padding-top: 131px;
 }
