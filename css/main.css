@@ -447,11 +447,11 @@ body {
 
 /* 지도영역 */
 #map_txt_t {
-  padding: 73px 0 0 581px;
+  padding: 73px 0 0 592px;
 }
 
 #map {
-  margin: 78px 0 -300px 461px; /*여기에(map div) 마진바텀 -300을 주니까 아래에 공백 없이 뒤의 배경과 겹쳐졌음*/
+  margin: 78px 0 -300px 472px; /*여기에(map div) 마진바텀 -300을 주니까 아래에 공백 없이 뒤의 배경과 겹쳐졌음*/
   z-index: 10;
 }
 #img{
