@@ -529,22 +529,32 @@ body {
   margin-top: 330px;
 }
 /* 푸터 */
+#footer_wrap{
+  width: 100%;
+  background-color: #e6e6e6;
+}
 #footer{
-  /* position: relative; */
+
+  position: relative;
   /* position: absolute; */
   /* bottom: 0; */
   width: 1920px;
+  margin: 0 auto;
   height: 236px;
   background-color: #e6e6e6;
   /* z-index: 20; */
 }
 #footer img{
+  position: absolute;
+
   float: left;
 }
 #footer div{
   float: left;
+  position: absolute;
 }
 #footer div p{
+
   font-size: 18px;
   color: #9fa0a3;
 }
