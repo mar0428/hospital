@@ -234,6 +234,7 @@ body {}
 
 body {
   overflow-x: hidden;
+  height: 3449px;
 }
 
 /* content 진료종류 */
@@ -260,7 +261,7 @@ body {
 .jong {
   width: 600px;
   height: 280px;
-  background: url("../images/jong.png") center center no-repeat;
+  /* background: url("../images/jong.png") center center no-repeat; */
   position: relative;
 }
 
@@ -269,35 +270,35 @@ body {
 .cho {
   width: 300px;
   height: 280px;
-  background: url("../images/cho.png") center center no-repeat;
+  /* background: url("../images/cho.png") center center no-repeat; */
   position: relative;
 }
 
 .ct {
   width: 300px;
   height: 280px;
-  background: url("../images/ct.png") center center no-repeat;
+  /* background: url("../images/ct.png") center center no-repeat; */
   position: relative;
 }
 
 .dang {
   width: 300px;
   height: 280px;
-  background: url("../images/dang.png") center center no-repeat;
+  /* background: url("../images/dang.png") center center no-repeat; */
   position: relative;
 }
 
 .go {
   width: 300px;
   height: 280px;
-  background: url("../images/go.png") center center no-repeat;
+  /* background: url("../images/go.png") center center no-repeat; */
   position: relative;
 }
 
 .nae {
   width: 600px;
   height: 280px;
-  background: url("../images/nae.png") center center no-repeat;
+  /* background: url("../images/nae.png") center center no-repeat; */
   position: relative;
 }
 
@@ -362,6 +363,28 @@ body {
   height: 17px;
   line-height: 13px;
   text-align: center;
+}
+
+.scale {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+}
+.scale:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.img {width:300px; height:280px; overflow:hidden }
+.L_img{
+  width: 600px;
+  height: 280px;
+  overflow: hidden;
 }
 
 /* content2 공지,칼럼 */
@@ -446,21 +469,30 @@ body {
 }
 
 /* 지도영역 */
+.map_wrap{
+  width: 1920px;
+  /* height: 1342px; */
+}
 #map_txt_t {
-  padding: 73px 0 0 592px;
+  padding: 73px 0 0 581px;
+  width: 1920px;
+  /* height: 84px; */
 }
 
 #map {
-  margin: 78px 0 -300px 472px; /*여기에(map div) 마진바텀 -300을 주니까 아래에 공백 없이 뒤의 배경과 겹쳐졌음*/
+  margin: 78px 0 0 461px;
   z-index: 10;
 }
 #img{
+  position: relative;
+  /* top: -300px; */
   width: 1920px;
-  height: 758px;
+  /* height: 758px; */
   background: url("../images/오시는길배경.png") center center no-repeat;
 }
 
 /* 교통편과 진료시간 */
+
 #img h2{
   float: left;
   font-size: 30px;
@@ -486,7 +518,7 @@ body {
 #img div{
   float: left;
   width: 480px;
-  height: 125px;
+  /* height: 125px; */
 }
 #transport{
   margin-top: 330px;
@@ -496,15 +528,18 @@ body {
   border-left: 1px solid #fff;
   margin-top: 330px;
 }
-
 /* 푸터 */
-#footer {
+#footer{
+  /* position: relative; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  width: 1920px;
   height: 236px;
   background-color: #e6e6e6;
+  /* z-index: 20; */
 }
 #footer img{
   float: left;
-  padding: 100px 0 0 404px;
 }
 #footer div{
   float: left;
@@ -512,14 +547,4 @@ body {
 #footer div p{
   font-size: 18px;
   color: #9fa0a3;
-  padding-bottom: 9px;
-}
-#footer_txt1{
-  padding: 74px 36px 0 83px;
-}
-#footer_txt2{
-  padding: 140px 34px 0 0;
-}
-#footer_txt3{
-  padding-top: 140px;
 }

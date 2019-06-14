@@ -76,6 +76,11 @@
           <h2 class="hidden">진료종류</h2>
           <ul id="list_wrap">
             <li class="jong">
+              <div class="L_img">
+                <div class="scale">
+                  <img src="images/jong.png" alt="종합건강검진">
+                </div>
+              </div>
               <div class="wrap4">
                 <h3>종합건강검진</h3>
                 <p>성인병 예방과 초기암 진단</p>
@@ -83,6 +88,11 @@
               </div>
             </li>
             <li class="cho">
+              <div class="img">
+                <div class="scale">
+                  <img src="images/cho.png" alt="초음파">
+                </div>
+              </div>
               <div class="wrap3">
                 <h3>초음파</h3>
                 <p>간/유방/심장/복부</p>
@@ -91,6 +101,11 @@
               </div>
             </li>
             <li class="ct">
+              <div class="img">
+                <div class="scale">
+                  <img src="images/ct.png" alt="CT">
+                </div>
+              </div>
               <div class="wrap3">
                 <h3>CT</h3>
                 <p>경부/척추/상지/하지</p>
@@ -99,6 +114,11 @@
               </div>
             </li>
             <li class="dang">
+              <div class="img">
+                <div class="scale">
+                  <img src="images/dang.png" alt="당뇨">
+                </div>
+              </div>
               <div class="wrap3">
                 <h3>당뇨</h3>
                 <p>합병증 예방과 치료</p>
@@ -106,6 +126,11 @@
               </div>
             </li>
             <li class="go">
+              <div class="img">
+                <div class="scale">
+                  <img src="images/go.png" alt="고혈압">
+                </div>
+              </div>
               <div class="wrap3">
                 <h3>고혈압</h3>
                 <p>지속적인 관리</p>
@@ -113,6 +138,11 @@
               </div>
             </li>
             <li class="nae">
+              <div class="L_img">
+                <div class="scale">
+                  <img src="images/nae.png" alt="위대장내시경">
+                </div>
+              </div>
               <div class="wrap3">
                 <h3>위 &#183; 대장 내시경</h3>
                 <p>검사부터 치료까지 원스톱</p>
@@ -180,10 +210,11 @@
         <div id="map_txt_t">
           <img src="images/오시는길텍스트.png" alt="주소와전화번호">
         </div>
-        <div id="map" style="width:979px;height:644px;"></div>
+        <!-- <div id="map" style="width:979px;height:644px;"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e68fe6927054caa7cd696c815fd395a3"></script> -->
 
-        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e68fe6927054caa7cd696c815fd395a3"></script>
-        <script>
+
+        <!-- <script>
           var mapContainer = document.getElementById('map'), // 지도를 표시할 div
             mapOption = {
               center: new daum.maps.LatLng(35.8989, 128.6090466), // 지도의 중심좌표
@@ -215,58 +246,58 @@
 
           // 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
           infowindow.open(map, marker);
-        </script>
+        </script> -->
+
 
         <div id="img">
-            <div id="transport">
-              <h2>교통편</h2>
-              <ul id="trans" class="t_f">
-                <li>버&nbsp;&nbsp;&nbsp;스</li>
-                <li>자가용</li>
-              </ul>
-              <ul id="trans2" class="t_f">
-                <li>동구1, 북구1, 북구2, 101,<br>623, 706, 836, 순환3</li>
-                <li>산격대우아파트 맞은편</li>
-              </ul>
-            </div>
-            <div id="timetable">
-              <h2>진료시간</h2>
-              <ul id="day" class="t_f">
-                <li>평&nbsp;&nbsp;&nbsp;일</li>
-                <li>토요일</li>
-                <li>점심시간</li>
-                <li>검진센터</li>
-                <li>일요일, 공휴일은 휴진</li>
-              </ul>
-              <ul id="time" class="t_f">
-                <li>08:00 - 18:00</li>
-                <li>08:30 - 13:00</li>
-                <li>13:00 - 14:30</li>
-                <li>08:30 - 17:00</li>
-              </ul>
-            </div>
+          <div id="transport">
+            <h2>교통편</h2>
+            <ul id="trans" class="t_f">
+              <li>버&nbsp;&nbsp;&nbsp;스</li>
+              <li>자가용</li>
+            </ul>
+            <ul id="trans2" class="t_f">
+              <li>동구1, 북구1, 북구2, 101,<br>623, 706, 836, 순환3</li>
+              <li>산격대우아파트 맞은편</li>
+            </ul>
+          </div>
+          <div id="timetable">
+            <h2>진료시간</h2>
+            <ul id="day" class="t_f">
+              <li>평&nbsp;&nbsp;&nbsp;일</li>
+              <li>토요일</li>
+              <li>점심시간</li>
+              <li>검진센터</li>
+              <li>일요일, 공휴일은 휴진</li>
+            </ul>
+            <ul id="time" class="t_f">
+              <li>08:00 - 18:00</li>
+              <li>08:30 - 13:00</li>
+              <li>13:00 - 14:30</li>
+              <li>08:30 - 17:00</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <footer id="footer">
-        <img src="images/푸터로고.png" alt="푸터로고이미지">
-        <div id="footer_txt1">
-          <p>대구광역시 북구 산격동 1260-3번지 5층</p>
-          <p>이승철내과의원 대표자 : 이승철</p>
-          <p>COPYRIGHT(C) ALL RIGHTS RESERVED.</p>
-        </div>
-        <div id="footer_txt2">
-          <p>Tel.053-959-3337</p>
-        </div>
-        <div id="footer_txt3">
-          <p>Fax.053-959-3367</p>
-        </div>
-      </footer>
     </div>
+    <footer id="footer">
+      <img src="images/푸터로고.png" alt="푸터로고이미지">
+      <div id="footer_txt1">
+        <p>대구광역시 북구 산격동 1260-3번지 5층</p>
+        <p>이승철내과의원 대표자 : 이승철</p>
+        <p>COPYRIGHT(C) ALL RIGHTS RESERVED.</p>
+      </div>
+      <div id="footer_txt2">
+        <p>Tel.053-959-3337</p>
+      </div>
+      <div id="footer_txt3">
+        <p>Fax.053-959-3367</p>
+      </div>
+    </footer>
   </div>
 
 
   <!--js-->
-
   <script>
     /* gnb */
     $(".gnb").on({
