@@ -546,13 +546,29 @@ body {
 }
 #footer img{
   position: absolute;
-
+  left: 403px;
+  top: 95px;
   float: left;
 }
-#footer div{
+#footer_txt1{
+  position: absolute;
+  left: 828px;
+  top: 82px;
+}
+#footer_txt2{
+  position: absolute;
+  left: 1209px;
+  top: 134px;
+}
+#footer_txt3{
+  position: absolute;
+  right: 368px;
+  top: 134px;
+}
+/* #footer div{
   float: left;
   position: absolute;
-}
+} */
 #footer div p{
 
   font-size: 18px;
