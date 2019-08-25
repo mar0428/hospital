@@ -485,9 +485,9 @@ body {
 }
 #img{
   position: relative;
-  /* top: -300px; */
+  top: -300px;
   width: 1920px;
-  /* height: 758px; */
+  height: 758px;
   background: url("../images/오시는길배경.png") center center no-repeat;
 }
 
