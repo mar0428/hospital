@@ -280,8 +280,8 @@
         </div>
       </div>
     </div>
-    </div>
-    <div id="footer_wrap">
+  </div>
+  <div id="footer_wrap">
     <footer id="footer">
       <img src="images/푸터로고.png" alt="푸터로고이미지">
       <div id="footer_txt1">
@@ -296,7 +296,7 @@
         <p>Fax.053-959-3367</p>
       </div>
     </footer>
-    </div>
+  </div>
 
 
 
@@ -326,13 +326,26 @@
     //
     //   });
     // });
-    $("#mainSlide").bxSlider({
-      auto: true,
-      mode: "fade",
-      autoControls: true,
-      pagerCustom: "#mainSlide_Pager"
+    // $("#mainSlide").bxSlider({
+    //   auto: true,
+    //   mode: "fade",
+    //   autoControls: true,
+    //   pagerCustom: "#mainSlide_Pager"
+    //
+    // });
 
-    });
+    $('#mainSlide').bxSlider({
+       mode:'fade',
+       auto:true,
+       autoControls: true,
+       autoControlsCombine: true,
+       pagerCustom: '#mainSlide_Pager'
+     });
+
+
+
+
+
   </script>
 
 </body>
